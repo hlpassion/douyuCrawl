@@ -14,6 +14,7 @@ BOT_NAME = 'douyuCrawl'
 SPIDER_MODULES = ['douyuCrawl.spiders']
 NEWSPIDER_MODULE = 'douyuCrawl.spiders'
 
+# 设置图像保存的路径，ImagesPipeline会自动读取该参数IMAGE_STORE
 IMAGES_STORE = "Images/"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 2_0 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5A347 Safari/525.200'
